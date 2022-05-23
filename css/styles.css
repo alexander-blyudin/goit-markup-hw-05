@@ -135,6 +135,7 @@ img {
 
   color: var(--primary-text-color);
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-cont .link {
@@ -191,13 +192,15 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-hero:hover {
-  background: #188ce8;
-}
+.btn-hero:hover,
 .btn-hero:focus {
   background: #188ce8;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .hide {
   display: none;
 }
@@ -393,6 +396,7 @@ img {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-item {
@@ -420,11 +424,13 @@ img {
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
   fill: var(--main-bg);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /***** Постоянные клиенты ******/
@@ -446,6 +452,7 @@ img {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-logo {
@@ -458,6 +465,7 @@ img {
 .clients-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ***********Footer********* */
 .footer {
@@ -523,14 +531,13 @@ img {
   margin-bottom: 9px;
 }
 
-.link:hover {
-  color: var(--accent-color);
-}
+.link:hover,
 .link:focus {
   color: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ******Портфоліо***** */
+/* ***************************Портфоліо***** *********************************/
 .btn {
   color: var(--primary-text-color);
   cursor: pointer;
@@ -545,18 +552,15 @@ img {
   letter-spacing: 0.03em;
   padding: 6px 22px;
   border: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn:hover {
-  color: #ffffff;
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
+.btn:hover,
 .btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-list {
@@ -597,11 +601,13 @@ img {
 }
 .work-example-link {
   display: block;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-example-link:hover,
 .work-example-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-content {
@@ -633,11 +639,13 @@ img {
 .work-example-link:focus .card-thumb::before {
   opacity: 1;
   transform: translateY(0);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .work-example-link:hover .card-descript,
 .work-example-link:focus .card-descript {
   opacity: 1;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-descript {
